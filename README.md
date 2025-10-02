@@ -25,13 +25,6 @@ g++ -std=c++11 -fopenmp archivo.cpp -o ejecutable
 clang++ -std=c++11 -Xpreprocessor -fopenmp archivo.cpp -lomp -o ejecutable
 ```
 
-Ajusta hilos con:
-```bash
-export OMP_NUM_THREADS=<k>   # Linux/macOS/WSL
-# o en Windows (cmd):
-# set OMP_NUM_THREADS=<k>
-```
-
 ---
 
 ## 1) P1-1 — Producto Matriz–Vector
