@@ -154,15 +154,7 @@ export OMP_NUM_THREADS=8 && ./p2-1 1024 1024 0.2 1
 
 ---
 
-## 5) Consejos rápidos
-
-- Ajusta hilos con `OMP_NUM_THREADS`.
-- Puedes medir tiempos con `/usr/bin/time -v` o añadir cronometraje simple en el código.
-- Si Clang en macOS no reconoce `-fopenmp`, compila con `-Xpreprocessor -fopenmp -lomp` (requiere `brew install libomp`).
-
----
-
-## 6) Resumen (copy/paste)
+## 5) Resumen (copy/paste)
 
 ```bash
 # Compilar todo
