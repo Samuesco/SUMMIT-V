@@ -166,6 +166,5 @@ g++ -std=c++11 -fopenmp p2-1.cpp -o p2-1
 # Ejecutar ejemplos
 ./p1-1 2000 1500 1
 ./p1-2 512 1 20000
-OMP_NUM_THREADS=3 ./p1-3 512 1
 ./p2-1 512 512 0.4 1
 ```
